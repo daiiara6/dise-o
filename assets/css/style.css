@@ -1,0 +1,76 @@
+.container{
+    DISPLAY: grid;
+    grid-template-columns: repeat (3,1fr);
+    grid-column-gap: 10px;
+    background-color: black;
+    width: 1000px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white; 
+    margin:  -1% auto auto auto;
+
+}
+.header {
+    background-image: url(../img/chicas\ pesadas.jpg);
+    background-position:  center;
+    background-size: cover;
+    width: 100%;
+    grid-column: 1/4;
+    height: 486px;
+    background-color: pink;
+}
+.header h1{
+    margin-top: 400px;
+    margin-left: 30px;
+    color:black;
+
+}
+.menu{
+    overflow:hidden;
+    grid-column: 1/4;
+    background-color: white;
+}
+.menu li{
+    align-items: center;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 20px 20px 0px;
+    text-decoration: none;
+}
+body{
+    background-color: pink;
+}
+.Sipnosis{
+    grid-column: 1/4;
+    grid-template-columns: repeat(4,1fr);
+    background-color: aqua;
+    padding: 0 20% 0 30%;
+
+}
+footer{
+    width: 100%;
+    grid-column: 1/4;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center; 
+
+}
+
+h4{
+    color: aquamarine;
+    width: 100%;
+    padding:  0% 30% 0% 10%;
+    
+}
+h3{
+    padding: 0% 30% 0% 10%;
+}
+p{
+    padding:  0% 30% 0% 10%;
+}
+.resenia p{
+    padding:  0% 30% 0% 10%;
+    width: 550px;
+}
